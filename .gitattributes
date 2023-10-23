@@ -1,0 +1,57 @@
+*.7z filter=lfs diff=lfs merge=lfs -text
+
+# # 団結 ##
+
+* .cs  diff = csharp テキスト
+* .cginc テキスト
+* .shader テキスト
+
+* .mat  merge = Unityyamlmerge  eol = lf
+* .anim  merge = Unityyamlmerge  eol = lf
+* .unity  merge = unityyamlmerge  eol = lf
+* .prefab  merge = Unityyamlmerge  eol = lf
+* .physicsMaterial2D  merge = Unityyamlmerge  eol = lf
+* .physicmaterial  merge = unityyamlmerge  eol = lf
+* .asset  merge = Unityyamlmerge  eol = lf
+* .meta  merge = Unityyamlmerge  eol = lf
+* .controller  merge = Unityyamlmerge  eol = lf
+
+
+# # git-lfs ##
+
+#画像
+* .jpg フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .jpeg フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .png フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .gif フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .psd フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .ai フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+
+#オーディオ
+* .mp3 フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .wav フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .ogg フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+
+#ビデオ
+* .mp4 フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .mov フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+
+# 3D オブジェクト
+* .FBX フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .fbx フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .blend フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .obj フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+
+#ETC _
+* .a フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .exr フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .tga フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .pdf フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .zip フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .dll フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .unitypackage フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .aif フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .ttf フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .rns フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .reason フィルター= lfs  diff = lfs マージ= lfs  -テキスト
+* .lxo フィルター= lfs  diff = lfs マージ= lfs  -テキスト
